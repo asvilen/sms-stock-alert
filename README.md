@@ -28,7 +28,31 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
 ## Getting Started
 
 1. **Clone the Repository**: Clone this repository to your local machine:
-```sh
-git clone https://github.com/yourusername/stock-alert-via-sms.git
-```
+  ```sh
+  git clone https://github.com/yourusername/stock-alert-via-sms.git
+  ```
 2. **Install Dependencies**: Install the required Python packages using pip:
+  ```sh
+  pip install requests twilio
+  ```
+3. **Set Up Environment Variables**:
+- Create an account on [Twilio](https://www.twilio.com/).
+- Obtain the API keys for Twilio.
+- Set the following environment variables in your system or a `.env` file:
+  ```sh
+  TWILIO_ACCOUNT_SID=your_twilio_account_sid
+  TWILIO_AUTH_TOKEN=your_twilio_auth_token
+  ```
+  ## Usage
+
+- **Manual Run**: To run the program manually, navigate to the project directory and execute:
+  ```sh
+  python main.py
+  ```
+- **Automated Scheduling**: For automated daily execution, consider using a scheduler like cron.
+
+## Goals
+
+This project showcases your skills in working with external APIs, data retrieval, and automated SMS notifications using Python. Stay informed about stock price changes and relevant news effortlessly.
+
+Happy stock tracking! 📈
