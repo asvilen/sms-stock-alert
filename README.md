@@ -18,7 +18,7 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
   - [Automated Scheduling](#automated-scheduling)
 - [Goals](#goals)
 - [Dependencies](#dependencies)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 
 ## How It Works
 
@@ -120,7 +120,8 @@ Embrace the power of knowledge. Stay informed. 🚀
 - `os`: Used for accessing environment variables.
 - `python-dotenv` (optional): If you decide to use a `.env` file for managing environment variables.
 
-- ## Screenshot
+- ## Screenshots
 
-![image](https://github.com/asvilen/sms-stock-alert/assets/47661156/9ebeda42-b8f8-4858-bbf3-db9fbe3386a7)
+![image](https://github.com/asvilen/sms-stock-alert/assets/47661156/9ebeda42-b8f8-4858-bbf3-db9fbe3386a7) ![image](https://github.com/asvilen/sms-stock-alert/assets/47661156/8af076a0-d0d4-40e9-b014-7ca75239d803)
+
 
