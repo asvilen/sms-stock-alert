@@ -29,7 +29,7 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
 
 1. **Clone the Repository**: Clone this repository to your local machine:
   ```sh
-  git clone https://github.com/yourusername/stock-alert-via-sms.git
+  git clone https://github.com/yourusername/sms-stock-alert.git
   ```
 2. **Install Dependencies**: Install the required Python packages using pip:
   ```sh
