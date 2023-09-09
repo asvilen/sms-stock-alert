@@ -1,5 +1,9 @@
 # SMS Stock Alert
 
+## Overview
+
+Stock Alert via SMS is a Python project that helps you stay updated with stock price changes and related news. It monitors the stock price of a specific company and sends you SMS alerts when significant price changes occur. You'll receive the top three news articles related to the company along with the stock price change percentage.
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -13,10 +17,6 @@
   - [Automated Scheduling](#automated-scheduling)
 - [Goals](#goals)
 - [Dependencies](#dependencies)
-
-## Overview
-
-Stock Alert via SMS is a Python project that helps you stay updated with stock price changes and related news. It monitors the stock price of a specific company and sends you SMS alerts when significant price changes occur. You'll receive the top three news articles related to the company along with the stock price change percentage.
 
 ## How It Works
 
