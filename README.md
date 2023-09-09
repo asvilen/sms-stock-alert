@@ -1,8 +1,9 @@
-# SMS Stock Alert
+# SMS Stock Alert 📈🚀📰
 
 ## Overview
 
-Stock Alert via SMS is a Python project that helps you stay updated with stock price changes and related news. It monitors the stock price of a specific company and sends you SMS alerts when significant price changes occur. You'll receive the top three news articles related to the company along with the stock price change percentage.
+Stock Alert via SMS is a Python project that helps you stay updated with stock price changes and related news. It monitors the stock price of a specific company and sends you SMS alerts when significant price changes occur. You'll receive the top three news articles related to the company along with the stock price change percentage.🚀
+
 
 ## Table of Contents
 
@@ -21,36 +22,41 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
 ## How It Works
 
 - **Main Script (main.py)**:
+  - The heart of the operation!
   - Imports functions from other modules.
-  - Defines the stock name and company name (e.g., TSLA for Tesla Inc).
+  - Defines the stock name and company name (e.g., TSLA for [Tesla Inc](https://www.tesla.com/)).
   - Fetches stock price data using the `get_stock_data` function.
   - Calculates the percentage price difference with `calculate_prc_price_difference`.
-  - If the price change is significant (greater than 5% or less than -5%), it fetches the top three news articles using the `get_top_three_articles_list` function and sends SMS alerts with Twilio.
+  - If the price change is noteworthy (greater than 5% or less than -5%), it fetches the top three news articles using the `get_top_three_articles_list` function and sends SMS alerts via [Twilio](https://www.twilio.com/).
 
 - **News Articles Module (news_articles.py)**:
-  - Uses a news API to fetch news articles related to the specified company.
-  - Extracts the top three articles and returns them as a list.
+  - Leverages the power of news APIs.
+  - Fetches fresh news articles related to the specified company.
+  - Selects the top three articles and serves them to you.
+  - News API Endpoint: [https://newsapi.org/v2/everything](https://newsapi.org/v2/everything)
 
 - **Stock Prices Module (stock_prices.py)**:
-  - Uses an API to retrieve daily stock price data for the specified company.
-  - Calculates the percentage price difference between the latest two days.
+  - Connects to the [Alpha Vantage API](https://www.alphavantage.co/).
+  - Retrieves daily stock price data for the chosen company.
+  - Computes the percentage price difference between the latest two days.
 
 - **Twilio API Module (twilio_api.py)**:
-  - Utilizes Twilio to send SMS alerts.
-  - Requires Twilio account credentials, including Account SID and Auth Token, which should be set as environment variables.
+  - Employs the magic of [Twilio](https://www.twilio.com/) for SMS alerts.
+  - Requires your Twilio account credentials, including Account SID and Auth Token, set as environment variables.
 
 ## Getting Started
 
 ### Clone the Repository
 
-To run this project, you need to clone this repository to your local machine:
+To embark on this journey, start by cloning this repository to your local machine:
+
 
   ```sh
   git clone https://github.com/yourusername/sms-stock-alert.git
   ```
 ### Install Dependencies
 
-Install the required Python packages using pip:
+Prepare your toolkit by installing the required Python packages using pip:
   ```sh
   pip install requests twilio
   ```
@@ -59,7 +65,7 @@ Install the required Python packages using pip:
 To set up the required environment variables:
 
 1. **News API (For News Articles)**:
-   - Create an account on the news API service you're using.
+   - Create an account on [News API ORG](https://newsapi.org/).
    - Obtain the API key.
    - Set the following environment variable in your system or a `.env` file:
 
@@ -68,8 +74,8 @@ To set up the required environment variables:
      ```
 
 2. **Alpha Vantage API (For Stock Prices)**:
-   - Create an account on the Alpha Vantage API service.
-   - Obtain the API key.
+   - Register at [Alpha Vantage](https://www.alphavantage.co/).
+   - Acquire the API key.
    - Set the following environment variable in your system or a `.env` file:
 
      ```
@@ -86,7 +92,7 @@ To set up the required environment variables:
      TWILIO_AUTH_TOKEN=your_twilio_auth_token
      ```
 
-Make sure to replace the placeholder values with your actual API keys and credentials when setting up your environment.
+Replace `your_news_api_key`, `your_alpha_vantage_api_key`, `your_twilio_account_sid`, and `your_twilio_auth_token` with the actual keys and credentials.
 
 ## Usage
 
@@ -98,13 +104,13 @@ To run the program manually, navigate to the project directory and execute:
   ```
 ### Automated Scheduling
 
-For automated daily execution, consider using a scheduler like cron.
+For a seamless journey, consider automating daily execution using a scheduler like cron.
 
 ## Goals
 
-This project showcases your skills in working with external APIs, data retrieval, and automated SMS notifications using Python. Stay informed about stock price changes and relevant news effortlessly.
+This project is your ultimate showcase of skills in handling external APIs, data retrieval, and automated SMS notifications using Python. It's your way of saying, "I've got the stock market covered!" 📈
 
-Happy stock tracking! 📈
+Embrace the power of knowledge. Stay informed. 🚀
 
 ## Dependencies
 
