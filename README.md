@@ -17,7 +17,6 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
   - [Manual Run](#manual-run)
   - [Automated Scheduling](#automated-scheduling)
 - [Goals](#goals)
-- [Dependencies](#dependencies)
 - [Screenshots](#screenshots)
 
 ## How It Works
@@ -113,12 +112,6 @@ This project is your ultimate showcase of skills in handling external APIs, data
 
 Embrace the power of knowledge. Stay informed. 🚀
 
-## Dependencies
-
-- `requests`: Used for making HTTP requests to fetch stock price and news data.
-- `twilio`: Used for sending SMS alerts.
-- `os`: Used for accessing environment variables.
-- `python-dotenv` (optional): If you decide to use a `.env` file for managing environment variables.
 
 ## Screenshots
 
