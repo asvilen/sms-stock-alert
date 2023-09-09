@@ -123,10 +123,8 @@ Embrace the power of knowledge. Stay informed. 🚀
 - ## Screenshots
 
 <p float="left">
-  <img src="https://github.com/asvilen/sms-stock-alert/assets/47661156/9ebeda42-b8f8-4858-bbf3-db9fbe3386a7" width="200" />
-  <img src="https://github.com/asvilen/sms-stock-alert/assets/47661156/8af076a0-d0d4-40e9-b014-7ca75239d803" width="200" />
+  <img src="https://github.com/asvilen/sms-stock-alert/assets/47661156/9ebeda42-b8f8-4858-bbf3-db9fbe3386a7" width="300" />
+  <img src="https://github.com/asvilen/sms-stock-alert/assets/47661156/8af076a0-d0d4-40e9-b014-7ca75239d803" width="300" />
 </p>
-
-![image](https://github.com/asvilen/sms-stock-alert/assets/47661156/9ebeda42-b8f8-4858-bbf3-db9fbe3386a7) ![image](https://github.com/asvilen/sms-stock-alert/assets/47661156/8af076a0-d0d4-40e9-b014-7ca75239d803)
 
 
