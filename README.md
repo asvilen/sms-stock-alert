@@ -1,4 +1,4 @@
-# Stock Alert via SMS
+# SMS Stock Alert
 
 ## Overview
 
@@ -14,11 +14,11 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
   - If the price change is significant (greater than 5% or less than -5%), it fetches the top three news articles using the `get_top_three_articles_list` function and sends SMS alerts with Twilio.
 
 - **News Articles Module (news_articles.py)**:
-  - Uses the News API to fetch news articles related to the specified company.
+  - Uses a news API to fetch news articles related to the specified company.
   - Extracts the top three articles and returns them as a list.
 
 - **Stock Prices Module (stock_prices.py)**:
-  - Uses the Alpha Vantage API to retrieve daily stock price data for the specified company.
+  - Uses an API to retrieve daily stock price data for the specified company.
   - Calculates the percentage price difference between the latest two days.
 
 - **Twilio API Module (twilio_api.py)**:
@@ -28,3 +28,7 @@ Stock Alert via SMS is a Python project that helps you stay updated with stock p
 ## Getting Started
 
 1. **Clone the Repository**: Clone this repository to your local machine:
+```sh
+git clone https://github.com/yourusername/stock-alert-via-sms.git
+```
+2. **Install Dependencies**: Install the required Python packages using pip:
